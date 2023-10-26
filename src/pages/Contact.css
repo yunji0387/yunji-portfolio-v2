@@ -1,0 +1,268 @@
+.contact {
+  width: 100%;
+}
+
+.contact-content {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-content-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 380px;
+}
+
+.contact-content-text {
+  padding: 0px 10px;
+  font-family: "Bangers", cursive;
+  font-size: 50px;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 5px 0 black;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  padding-left: 10%;
+  height: 30px;
+}
+
+.contact-content-text:hover {
+  font-size: 75px;
+  -webkit-text-stroke: 1px rgb(194, 192, 161);
+  text-shadow: 5px 0 rgb(194, 192, 161);
+  height: 75px;
+  color: black;
+  background-color: rgb(223, 221, 186);
+  border-radius: 25px;
+}
+
+.contact-content-text-unavailable {
+  padding: 0px 10px;
+  font-family: "Bangers", cursive;
+  font-size: 50px;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 5px 0 black;
+  color: grey;
+  text-decoration: none;
+  margin: 20px;
+  padding-left: 10%;
+  height: 30px;
+  cursor:no-drop;
+}
+
+@media (max-width: 1000px), (max-height: 850px) {
+  .contact-content-text {
+    font-size: 45px;
+  }
+
+  .contact-content-text-unavailable {
+    font-size: 45px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 65px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 900px), (max-height: 830px) {
+  .contact-content-text {
+    font-size: 40px;
+    margin: 15px;
+  }
+
+  .contact-content-text-unavailable {
+    font-size: 40px;
+    margin: 15px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-content-text {
+    font-size: 35px;
+  }
+
+  .contact-content-text-unavailable {
+    font-size: 35px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 700px), (max-height: 750px) {
+  .contact-content-section {
+    height: 330px;
+  }
+
+  .contact-content-text {
+    font-size: 30px;
+  }
+
+  .contact-content-text-unavailable {
+    font-size: 30px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px), (max-height: 680px) {
+  .contact-content-section {
+    height: 280px;
+  }
+
+  .contact-content-text {
+    padding: 0px 50px;
+    font-size: 30px;
+  }
+
+  .contact-content-text-unavailable {
+    padding: 0px 50px;
+    font-size: 30px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 520px), (max-height: 630px) {
+  .contact-content-section {
+    height: 200px;
+  }
+
+  .contact-content-text {
+    font-size: 25px;
+    -webkit-text-stroke: 0px;
+    text-shadow: 0px;
+    margin: 5px;
+  }
+
+  .contact-content-text-unavailable {
+    font-size: 25px;
+    -webkit-text-stroke: 0px;
+    text-shadow: 0px;
+    margin: 5px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-content-text {
+    padding: 0px 25px;
+    font-size: 20px;
+    margin: 1px;
+  }
+
+  .contact-content-text-unavailable {
+    padding: 0px 25px;
+    font-size: 20px;
+    margin: 1px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-height: 450px) {
+  .contact-content-section {
+    height: 150px;
+  }
+
+  .contact-content-text {
+    padding: 0px 25px;
+    font-size: 20px;
+    margin: 1px;
+  }
+
+  .contact-content-text-unavailable {
+    padding: 0px 25px;
+    font-size: 20px;
+    margin: 1px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact-content-text {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+
+  .contact-content-text-unavailable {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 20px;
+    height: 25px;
+  }
+}
+
+@media (max-height: 330px) {
+  .contact-content {
+    /* margin-top: 20px; */
+  }
+
+  .contact-content-section {
+    height: 120px;
+  }
+
+  .contact-content-text {
+    margin-top: 8px;
+    padding: 0px 25px;
+    font-size: 16px;
+  }
+
+  .contact-content-text-unavailable {
+    padding: 0px 25px;
+    font-size: 16px;
+  }
+
+  .contact-content-text:hover {
+    font-size: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-height: 300px) {
+  .contact-content-section {
+    height: 100px;
+  }
+
+  .contact-content-text-unavailable {
+    display: none;
+  }
+
+  .contact-content-section {
+    margin-top: -8px;
+  }
+}
+

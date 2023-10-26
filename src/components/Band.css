@@ -1,0 +1,7 @@
+.band {
+    background-color: rgb(7, 44, 10);
+    background-image: linear-gradient(to right, rgb(0, 28, 0), rgb(7, 44, 10), rgb(0, 28, 0));
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    width: 100%;
+  }
